@@ -13,6 +13,8 @@ class RetryInterceptor extends Interceptor {
   RetryInterceptor({@required this.dio, this.logger, RetryOptions options})
       : this.options = options ?? const RetryOptions();
 
+
+
   @override
   onError(DioError err) async {
     var extra = RetryOptions.fromExtra(err.request) ?? this.options;
