@@ -1,8 +1,10 @@
-name: dio_retry
+name: dio4_retry
 description: A starting point for Dart libraries or applications.
 version: 0.1.10-beta
 homepage: https://github.com/aloisdeniel/dio_retry
 author: aloisdeniel <alois.deniel@outlook.com>
+
+publish_to: none
 
 environment:
   sdk: '>=2.2.0 <3.0.0'
